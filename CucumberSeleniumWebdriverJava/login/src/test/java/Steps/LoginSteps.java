@@ -5,8 +5,10 @@ public class LoginSteps {
     public void iNavigateToWebsite() {
     }
 
-    @io.cucumber.java.en.And("^I enter <username> and <password>$")
-    public void iEnterUsernameAndPassword() {
+    @io.cucumber.java.en.And("^I enter ([^\"]*) and ([^\"]*)$")
+    public void iEnterUsernameAndPassword(String username, String password) {
+        System.out.println("Username"+username);
+        System.out.println("Password"+password);
     }
 
     @io.cucumber.java.en.And("^I click login button$")
