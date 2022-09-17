@@ -5,6 +5,6 @@
       And I click login button
       Then I should see dashboard
       Examples:
-      |username|password|
-      |Admin   |admin123|
+        | username | password  |
+        | Admin    | admin123  |
 
