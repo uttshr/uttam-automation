@@ -6,6 +6,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.openqa.selenium.By;
+//import org.openqa.selenium.ass
 
 public class LoginVerifySteps extends BaseUtil
 {
@@ -36,6 +37,9 @@ public class LoginVerifySteps extends BaseUtil
 
         @Then("I should see dashboard")
         public void iShouldSeeDashboard() {
-        bases.Driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/header/div[1]/div[1]/span/h6")).isDisplayed();
+       // bases.Driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/header/div[1]/div[1]/span/h6")).isDisplayed();
+        Assert.isTrue(true, "This is testing for assertion", bases.Driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/header/div[1]/div[1]/span/h6")).isDisplayed());
+
         }
+
 }
