@@ -26,22 +26,18 @@ public class LoginVerifySteps extends BaseUtil {
         LoginPage page = new LoginPage(bases.Driver);
         page.Login1(username);
         page.Login2(password);
-//        bases.Driver.findElement(By.name("username")).sendKeys(username);
-//        bases.Driver.findElement(By.name("password")).sendKeys(password);
-
-
     }
 
     @And("I click login button")
     public void iClickLoginButton() {
-//        bases.Driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button")).submit();
         LoginPage page = new LoginPage(bases.Driver);
         page.txtLogin();
     }
 
     @Then("I verify dashboard")
     public void iVerifyDashboard() {
-        bases.Driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/header/div[1]/div[1]/span/h6")).isDisplayed();
+        LoginPage page = new LoginPage(bases.Driver);
+        page.VerifyDashboard();
     }
 
 
