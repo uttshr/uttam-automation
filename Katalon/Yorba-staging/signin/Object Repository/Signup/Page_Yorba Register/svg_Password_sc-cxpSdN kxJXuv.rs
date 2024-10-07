@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg_Password_sc-cxpSdN kxJXuv</name>
+   <tag></tag>
+   <elementGuidId>a1a09379-5a3d-4f49-a9c3-f47b680c8a04</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[2]/following::*[name()='svg'][2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>svg.sc-cxpSdN.kxJXuv</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>a5b92c96-bac0-466f-bcab-bd914a31e163</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>24</value>
+      <webElementGuid>b2b750aa-3b75-478a-85e9-a986380bcc3d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>24</value>
+      <webElementGuid>69d8331b-5149-4a8c-95e9-0c24a4eebde6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>a6ed052f-2222-47c1-9d10-2b0152b4d359</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-cxpSdN kxJXuv</value>
+      <webElementGuid>a7c74858-53cb-46dd-9086-13fd5ef05f69</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[1]/div[@class=&quot;sc-furwcr lfaONF&quot;]/div[@class=&quot;sc-pVTFL cvQhHH&quot;]/main[@class=&quot;sc-lbhJGD lhqVtN&quot;]/div[@class=&quot;MuiGrid-root sc-hUpaCq iXIeYE MuiGrid-container&quot;]/div[@class=&quot;MuiGrid-root sc-khQegj hJUyEt MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-9 MuiGrid-grid-md-5&quot;]/div[@class=&quot;MuiGrid-root sc-jgrJph iKKOOH&quot;]/form[1]/div[@class=&quot;MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3&quot;]/div[@class=&quot;MuiGrid-root sc-dPiLbb fEbOvS MuiGrid-item MuiGrid-grid-xs-12&quot;]/div[@class=&quot;MuiFormControl-root MuiTextField-root sc-llYSUQ jkJNit MuiFormControl-fullWidth&quot;]/div[@class=&quot;MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth Mui-focused Mui-focused MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd MuiInputBase-marginDense MuiOutlinedInput-marginDense&quot;]/div[@class=&quot;MuiInputAdornment-root MuiInputAdornment-positionEnd MuiInputAdornment-marginDense&quot;]/button[@class=&quot;MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd&quot;]/span[@class=&quot;MuiIconButton-label&quot;]/span[@class=&quot;sc-iJKOTD kOYyhk invisible&quot;]/svg[@class=&quot;sc-cxpSdN kxJXuv&quot;]</value>
+      <webElementGuid>e10e1ac9-13b8-422c-9b6f-a5a0a5043ddd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[2]/following::*[name()='svg'][2]</value>
+      <webElementGuid>bf38bb1e-6268-404e-8be3-f550e26b6bd9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='We strongly recommendthat you create a new,unique password for Yorba.'])[1]/following::*[name()='svg'][2]</value>
+      <webElementGuid>f007562c-5e69-4e6a-b136-77cb168d951e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[3]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>c7739d35-5637-481a-9c01-fd0b0e9a6bad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign me up'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>bba8b0dd-639e-4a90-b762-5face600c77b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

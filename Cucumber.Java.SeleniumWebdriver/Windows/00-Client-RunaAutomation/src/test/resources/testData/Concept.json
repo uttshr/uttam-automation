@@ -1,0 +1,24 @@
+{
+  "createConcept": {
+    "name": "Test191",
+    "perceptionType": {
+      "type": "Percepción estándar",
+      "satCatalog": "011 - Prima de Seguro de vida"
+    },
+    "conceptType": "Ordinario",
+    "isnGravel": "Sí",
+    "isrGravel": "NA",
+    "accountNumber": "12345678"
+  },
+  "editConcept": {
+    "name": "Test191",
+    "field": "perceptionType",
+    "value": {
+      "type": "Percepción periódica",
+      "satCatalog": "038 - Otros ingresos por salarios"
+    }
+  },
+  "deleteConcept": {
+    "name": "Test191"
+  }
+}

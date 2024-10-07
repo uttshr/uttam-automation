@@ -1,0 +1,340 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-21T15:12:00.390Z",
+        "line": 17,
+        "name": "C9_Login test - positive scenario",
+        "description": "",
+        "id": "runa-login-feature;c9-login-test---positive-scenario;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3090971200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "testSteps.Hook.after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 32911639100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I navigate to runa app",
+            "match": {
+              "location": "testSteps.LoginTestStep.iNavigateToRuna()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 114278600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I get the data for login with \"login.json\" and \"valid\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"login.json\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"valid\"",
+                  "offset": 47
+                }
+              ],
+              "location": "testSteps.LoginTestStep.iGetDataTheDataForLoginWithAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 251329600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter email",
+            "match": {
+              "location": "testSteps.LoginTestStep.enterEmail()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 128656000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter password",
+            "match": {
+              "location": "testSteps.LoginTestStep.enterPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84774400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click getInto button",
+            "match": {
+              "location": "testSteps.LoginTestStep.clickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7995185500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I validate login successful message",
+            "match": {
+              "location": "testSteps.LoginTestStep.validateLogin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-21T15:12:45.406Z",
+        "line": 32,
+        "name": "C8_Login test - negative scenario",
+        "description": "",
+        "id": "runa-login-feature;c8-login-test---negative-scenario;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1646187200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "testSteps.Hook.after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7912723900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I navigate to runa app",
+            "match": {
+              "location": "testSteps.LoginTestStep.iNavigateToRuna()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 997200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I get the data for login with \"login.json\" and \"invalid1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"login.json\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"invalid1\"",
+                  "offset": 47
+                }
+              ],
+              "location": "testSteps.LoginTestStep.iGetDataTheDataForLoginWithAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 891616300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter email",
+            "match": {
+              "location": "testSteps.LoginTestStep.enterEmail()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 158580300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I enter password",
+            "match": {
+              "location": "testSteps.LoginTestStep.enterPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84285300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click getInto button",
+            "match": {
+              "location": "testSteps.LoginTestStep.clickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1883519800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I validate login unsuccessful message",
+            "match": {
+              "location": "testSteps.LoginTestStep.validateUnSuccessfulLogin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-21T15:12:58.049Z",
+        "line": 33,
+        "name": "C8_Login test - negative scenario",
+        "description": "",
+        "id": "runa-login-feature;c8-login-test---negative-scenario;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1489523200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "testSteps.Hook.after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9665825300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I navigate to runa app",
+            "match": {
+              "location": "testSteps.LoginTestStep.iNavigateToRuna()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1992700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I get the data for login with \"login.json\" and \"invalid2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"login.json\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"invalid2\"",
+                  "offset": 47
+                }
+              ],
+              "location": "testSteps.LoginTestStep.iGetDataTheDataForLoginWithAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 878779300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter email",
+            "match": {
+              "location": "testSteps.LoginTestStep.enterEmail()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 161562500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I enter password",
+            "match": {
+              "location": "testSteps.LoginTestStep.enterPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96741800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click getInto button",
+            "match": {
+              "location": "testSteps.LoginTestStep.clickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1612074900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I validate login unsuccessful message",
+            "match": {
+              "location": "testSteps.LoginTestStep.validateUnSuccessfulLogin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Runa Login Feature",
+    "description": "Feature Description: Test login feature",
+    "id": "runa-login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/Login.feature",
+    "tags": []
+  }
+]

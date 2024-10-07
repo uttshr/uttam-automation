@@ -1,0 +1,37 @@
+{
+  "createPolicy": {
+    "name": "Test03",
+    "economyDays": "5",
+    "vacationBonus": "yes",
+    "pantryVoucher": {
+      "type": "Fijo",
+      "number": "10",
+      "cap": "no"
+    },
+    "savingFund": {
+      "type": "Porcentual",
+      "number": "10",
+      "cap": "yes"
+    },
+    "restaurantVoucher": {
+      "type": "Fijo",
+      "number": "20",
+      "cap": "yes"
+    },
+    "discounts": {
+      "faultsDiscount": "yes",
+      "disabilitiesDiscount": "no",
+      "restaurantVoucherDiscount": "yes",
+      "seventhDayDiscount": "no"
+    },
+    "calculationsBasedOn": "seniority"
+  },
+  "editPolicy": {
+    "name": "Test03",
+    "field": "restaurantVoucher.type",
+    "value": "Porcentual"
+  },
+  "deletePolicy": {
+    "name": "Test03"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "validDateRange": {
+    "grupo1": {
+      "name": "Grupo 1",
+      "startDatePeriod": "07/04/2022",
+      "startDateIncident": "07/04/2022",
+      "endDateIncident": "13/04/2022"
+    },
+    "grupo2": {
+      "name": "Grupo 2",
+      "startDatePeriod": "01/04/2022",
+      "startDateIncident": "01/04/2022",
+      "endDateIncident": "15/04/2022"
+    },
+    "grupo3": {
+      "name": "Grupo 3",
+      "startDatePeriod": "",
+      "startDateIncident": "",
+      "endDateIncident": "06/04/2022"
+    },
+    "grupo4": {
+      "name": "Grupo 4",
+      "startDatePeriod": "",
+      "startDateIncident": "",
+      "endDateIncident":""
+    }
+  },
+  "invalidDateRange": {
+    "grupo1": {
+      "name": "Grupo 1",
+      "startDatePeriod": "01/04/2022",
+      "startDateIncident": "08/03/2022",
+      "endDateIncident": "17/03/2022",
+      "errorTitle": "La nómina no pudo ser creada:",
+      "errorReason": "Fin de rango de incidencias: no debe ser mayor a la fecha de fin de la nómina."
+    },
+    "grupo2": {
+      "name": "Grupo 2",
+      "startDatePeriod": "01/04/2022",
+      "startDateIncident": "01/04/2022",
+      "endDateIncident": "17/04/2022",
+      "errorTitle": "La nómina no pudo ser creada:",
+      "errorReason": "Fin de rango de incidencias: no debe ser mayor a la fecha de fin de la nómina."
+    },
+    "grupo3": {
+      "name": "Grupo 3",
+      "startDate": "",
+      "endDate": "",
+      "errorTitle": "La nómina no pudo ser creada:",
+      "errorReason": "Fin de rango de incidencias: no debe ser mayor a la fecha de fin de la nómina."
+    },
+    "grupo4": {
+      "name": "Grupo 4",
+      "startDatePeriod": "",
+      "startDateIncident": "",
+      "endDateIncident":"",
+      "errorTitle": "La nómina no pudo ser creada:",
+      "errorReason": "Fin de rango de incidencias: no debe ser mayor a la fecha de fin de la nómina."
+    }
+  },
+  "existingDateRange": {
+    "grupo1": {
+      "startDatePeriod": "01/04/2022",
+      "startDateIncident": "08/03/2022",
+      "endDateIncident": "14/03/2022",
+      "errorTitle": "La nómina no pudo ser creada:",
+      "errorReason": "Ups! La fecha de inicio está siendo cubierta por otra nómina."
+    },
+    "grupo2": {
+      "name": "Grupo 2",
+      "startDatePeriod": "",
+      "startDateIncident": "",
+      "endDateIncident":"",
+      "errorTitle": "La nómina no pudo ser creada:",
+      "errorReason": "Ups! La fecha de inicio está siendo cubierta por otra nómina."
+    },
+    "grupo3": {
+      "name": "Grupo 3",
+      "startDatePeriod": "",
+      "startDateIncident": "",
+      "endDateIncident":"",
+      "errorTitle": "La nómina no pudo ser creada:",
+      "errorReason": "Ups! La fecha de inicio está siendo cubierta por otra nómina."
+    },
+    "grupo4": {
+      "name": "Grupo 4",
+      "startDatePeriod": "",
+      "startDateIncident": "",
+      "endDateIncident":"",
+      "errorTitle": "La nómina no pudo ser creada:",
+      "errorReason": "Ups! La fecha de inicio está siendo cubierta por otra nómina."
+    }
+  }
+}

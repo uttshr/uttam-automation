@@ -1,0 +1,19 @@
+{
+  "createPayrollGroup": {
+    "groupName": "Test",
+    "companyId": "QA_32",
+    "companyBankId": "Cta Runa",
+    "payrollGroupFrequency":"Semanal",
+    "payrollGroupCalculation": "30 días",
+    "annualGratuity": "Extraordinaria",
+    "subsidyType": "periodic"
+  },
+  "editPayrollGroup": {
+    "groupName": "Test292",
+    "Field": "payrollGroupCalculation",
+    "Value": "30.4 días"
+  },
+  "deletePayrollGroup":{
+    "groupName": "Test292"
+  }
+}

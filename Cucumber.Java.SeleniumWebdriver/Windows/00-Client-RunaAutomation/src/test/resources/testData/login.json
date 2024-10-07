@@ -1,0 +1,17 @@
+{
+  "valid": {
+    "username": "16c35385046a2d@anymail.com",
+    "password": "runahr",
+    "successfulMsg": "¡Hola, Administrador!"
+  },
+  "invalid1": {
+    "username": "16c35385046a2d@anymail.com",
+    "password": "invalid",
+    "unsuccessfulMsg": "No se inició sesión. Verifique que el email y contraseña sean correctos."
+  },
+  "invalid2": {
+    "username": "invalid@invalid.com",
+    "password": "runahr",
+    "unsuccessfulMsg": "No se inició sesión. Verifique que el email y contraseña sean correctos."
+  }
+}

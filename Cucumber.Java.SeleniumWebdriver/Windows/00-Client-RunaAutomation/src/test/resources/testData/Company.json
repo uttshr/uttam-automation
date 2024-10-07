@@ -1,0 +1,27 @@
+{
+  "createCompany": {
+    "CompanyName": "CompanybyUttam",
+    "BusinessName": "CompanybyUttam",
+    "LogoFilePath": "D:\\testcapture.jpg",
+    "IndustryName": "Siembra, cultivo y cosecha de soya",
+    "RFC": "BBP800825562",
+    "TAXRegime": "General de Ley Personas Morales",
+    "RiskPremium": "2",
+    "State": "Ciudad de México",
+    "Address": "Galileo 307, Polanco, Polanco IV Secc, 11550 Ciudad de México",
+    "PostalCode": "15001",
+    "BankAccount": "Cta Runa",
+    "ImssKey": "16",
+    "CdaKeyFilePath": "F:\\certkey.key",
+    "CdaCertFilePath": "F:\\certificate.cert",
+    "password": "123456"
+  },
+  "editCompany": {
+    "CompanyName": "QA_585",
+    "Field": "Address",
+    "Value": "update Galileo 307, Polanco, Polanco IV Secc, 11550 Ciudad de México"
+  },
+  "deleteCompany":{
+    "CompanyName": "QA_585"
+  }
+}

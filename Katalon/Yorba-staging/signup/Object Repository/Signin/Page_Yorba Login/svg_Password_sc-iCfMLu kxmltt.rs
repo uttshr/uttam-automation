@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg_Password_sc-iCfMLu kxmltt</name>
+   <tag></tag>
+   <elementGuidId>7d844539-2ffe-4302-af35-a601b648e860</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[2]/following::*[name()='svg'][2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>svg.sc-iCfMLu.kxmltt</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>29450097-be46-4b9f-a6f5-df3a9c70ca5c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>24</value>
+      <webElementGuid>92a5cafe-ae88-4e09-8806-f49e917e17c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>24</value>
+      <webElementGuid>ba006b89-e922-4cd1-9bc8-cbcef0d392af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>1dc65f29-9a4e-427d-b731-09b99efc9229</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-iCfMLu kxmltt</value>
+      <webElementGuid>c591fa80-7b91-44e0-a8dd-820d36f6316c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[1]/div[@class=&quot;sc-bdvvtL laVdwQ&quot;]/div[@class=&quot;sc-gsDKAQ Ipvc&quot;]/div[@class=&quot;MuiGrid-root sc-dPiLbb dGhuLl MuiGrid-container&quot;]/div[@class=&quot;MuiGrid-root sc-bBHHxi ioZDUL MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4&quot;]/div[@class=&quot;MuiBox-root jss2&quot;]/form[1]/div[@class=&quot;MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-5&quot;]/div[@class=&quot;MuiGrid-root sc-cNKqjZ bgVdA MuiGrid-item MuiGrid-grid-xs-12&quot;]/div[@class=&quot;MuiFormControl-root MuiTextField-root sc-furwcr bImjBE MuiFormControl-fullWidth&quot;]/div[@class=&quot;MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth Mui-focused Mui-focused MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd MuiInputBase-marginDense MuiOutlinedInput-marginDense&quot;]/div[@class=&quot;MuiInputAdornment-root MuiInputAdornment-positionEnd MuiInputAdornment-marginDense&quot;]/button[@class=&quot;MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd&quot;]/span[@class=&quot;MuiIconButton-label&quot;]/span[@class=&quot;sc-pVTFL dQuQxT invisible&quot;]/svg[@class=&quot;sc-iCfMLu kxmltt&quot;]</value>
+      <webElementGuid>70d000d3-a052-425d-8a0b-32c4f5e4945b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[2]/following::*[name()='svg'][2]</value>
+      <webElementGuid>875747c7-a880-4b55-b94f-05973b28473d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[3]/following::*[name()='svg'][2]</value>
+      <webElementGuid>fdd2c46a-db4d-41ab-ab42-7cb3786dd1a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[3]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>e4150e59-0d3b-4dd5-9171-fe540547c27d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log in'])[2]/preceding::*[name()='svg'][2]</value>
+      <webElementGuid>cec7ec1a-a5f9-49b5-b007-94e8e1ce3f4d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
