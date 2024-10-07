@@ -6,6 +6,9 @@ It contains all the automation code written with Cucumber, Java and Selenium Web
 **Java.SeleniumWebdriver.Maven.JUnit | IDE Used: Eclipse |** 
 It contains code written on Java, Selenium WebDriver, JUnit and Maven
 
+**Jmeter**
+It contains all Jmeter test plan
+
 **Katalon | IDE Used: Eclipse |** 
 It contains code written on Katalon
 
